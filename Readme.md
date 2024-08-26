@@ -12,7 +12,7 @@ Como características funcionales de este proyecto se tienen:
 </p>
 
 <p align="center">
-<img src="WEIN.png" alt="WEIN" width="200"/>  
+<img src="Git_Images/WEIN.png" alt="WEIN" width="380"/>  
 </p>
 
 * Se diseñó e implementó un circuito Scott-t, un Multiplicador y un Filtro pasa bajas.  
@@ -22,10 +22,17 @@ Como características funcionales de este proyecto se tienen:
 <b> Esquemático transformador "Scott-t"</b>
 </p>
 <p align="center">
-<img src="Scott-t.png" alt="Scott-t" width="200"/>  
+<img src="Git_Images/Scott-t.png" alt="Scott-t" width="380"/>  
 </p>
 
 * Se implementó un circuito multiplicador, el cual realiza la operación entre las señales seno y coseno provenientes del circuito Scott-t. (Se usó el integrado ***AD633ARZ***)
+<p align="center">
+<b> Circuito Multiplicador</b>
+</p>
+<p align="center">
+<img src="Git_Images/MultiplicadorPin.png" alt="MultiplicadorPin" width="300"/>
+<img src="Git_Images/MultiplierDatasheet.png" alt="MultiplierDatasheet" width="300"/> 
+</p>
 
 * Se diseñó e implementó un Filtro pasa bajas a la señal proveniente del circuito multiplicador para obtener un valor DC.
 
@@ -33,7 +40,7 @@ Como características funcionales de este proyecto se tienen:
 <b> Esquemático "Filtro pasa bajas"</b>
 </p>
 <p align="center">
-<img src="FiltroLP.png" alt="FiltroLP" width="200"/>  
+<img src="Git_Images/FiltroLP.png" alt="FiltroLP" width="380"/>  
 </p>
 
 * Se acondiciona la señal proveniente del filtro pasa bajas para que esta pueda ser leída y analizada por un Arduino.
@@ -41,26 +48,30 @@ Como características funcionales de este proyecto se tienen:
 <b> Esquemático "Acondicionamiento de señal" </b>
 </p>
 <p align="center">
-<img src="Acondicionamiento.png" alt="Acondicionamiento" width="200"/>  
+<img src="Git_Images/Acondicionamiento.png" alt="Acondicionamiento" width="500"/>  
 </p>
 
 * Se diseñó e implementó el código con el cual se determina la posición angular del rotor del Synchro haciendo uso de la señal descrita previamente, este código se realizó en el programa Arduino Software IDE. (__ARDUINO MEGA2560__)
 
+<p align="center">
+<img src="Git_Images/ArduinoMega.png" alt="ArduinoMega" width="500"/>  
+</p>
+
 ## Esquemático del Proyecto
 <p align="center">
-<img src="Esquematico.png" alt="Esquematico" width="200"/>  
+<img src="Git_Images/Esquematico.png" alt="Esquematico" width="600"/>  
 </p>
 
 ## PCB del Proyecto
 <p align="center">
-<img src="PCB1.png" alt="PCB1" width="200"/>
-<img src="PCB2.png" alt="PCB2" width="200"/>  
+<img src="Git_Images/PCB1.png" alt="PCB1" width="300"/>
+<img src="Git_Images/PCB2.png" alt="PCB2" width="300"/>  
 </p>
 
 ## Referencias
 
 * Synchro Clifton CTH - 10 - CYS - 4
-* [Arduino(Nd).Arduino Mega](https://www.robotshop.com/media/files/pdf/arduinomega2560datasheet.pdf)
+* [Arduino(Nd).Arduino Mega 2560](https://store.arduino.cc/products/arduino-mega-2560-rev3?srsltid=AfmBOoo-9r6ksAkXHn1IQ_-s1HPBE7aNFOS1nhb0wfECLlsSYt7ut6xM)
 * Salz, K. (1998). How does synchros and resolvers
 work.
 * [Kessler, J. (1994). Synchro/resolver conversion
