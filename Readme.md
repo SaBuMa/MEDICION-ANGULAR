@@ -1,4 +1,4 @@
-# MEDICIÓN-ANGULAR
+# Medicíon Angular
 ***Resumen*** Este documento muestra la concepción, diseño,  implementación y operación de un sistema capaz de medir posición angular por medio de un Synchro/Resolver. Además, se presenta lo fundamental de la teoría para entender el funcionamiento del dispositivo junto con los resultados obtenidos.
 
 ***Abstract*** This paper presents from scratch the design process, the workings and the way to do a system capable of measuring the angular position using a Synchro/Resolver. Furthermore it is presented as the fundamental theory to understand the device along with the results obtained.  
